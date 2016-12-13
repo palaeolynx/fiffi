@@ -1,0 +1,11 @@
+Source: fiffi
+Maintainer: Alex Wagner <palaeolynx@gmail.com>
+Section: python
+Priority: optional
+Build-Depends: debhelper (>= 7), dh-python, python3-setuptools, python3-all, aptly
+Standards-Version: 3.9.7
+
+Package: python3-fiffi
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}, aptly
+Description: aptly proxy
